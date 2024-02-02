@@ -16,15 +16,26 @@
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="newuser.html">Login/New User</a></li>
+        <li><a href="newuser.html">New User</a></li>
         <li><a href="ingredient.html">Ingredient Inventory</a></li>
     </ul>
 </nav>
 
 <main>
-    <h3>This is the Login/New User page</h3>
+    <h3>User Registration</h3>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam asperiores veniam dicta quam soluta temporibus saepe fuga tenetur atque, sed necessitatibus nobis officiis dolor consequuntur quibusdam distinctio quia praesentium pariatur?</p>
+    <form id="registrationForm" autocomplete="off">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required><br>
 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
 </main>
 </header>
     
